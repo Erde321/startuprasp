@@ -22,7 +22,7 @@ git clone https://github.com/Erde321/startuprasp
 ```
 
 ### Configure ngrok
-Create an ngrok authentication token:
+Create an ngrok https://dashboard.ngrok.com/get-started/your-authtoken and enter your Token:
 ```bash
 ngrok authtoken <your-ngrok-token>
 ```
