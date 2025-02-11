@@ -21,7 +21,7 @@ start:
 				exit 1; \
 			fi && \
 			echo "✅ Ngrok remote URL: $$NGROK_REMOTE_URL" && \
-			/usr/bin/python ./sendtext.py "$$NGROK_REMOTE_URL"; \  # Sendet die URL per WhatsApp
+			/usr/bin/python ./callmebot/sendtext.py "$$NGROK_REMOTE_URL"; \  # Sendet die URL per WhatsApp
 			exit 0; \
 		else \
 			if [ $$i -eq 8 ]; then \
