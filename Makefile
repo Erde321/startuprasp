@@ -31,7 +31,7 @@ start:
 				echo "Attempt $$i failed to start Ngrok."; \
 			fi; \
 			sleep 2; \  # Wartezeit zwischen den Versuchen
-		fi \
+		fi; \
 	done
 
 # Stop-Ziel: Beendet laufende ngrok-Prozesse
