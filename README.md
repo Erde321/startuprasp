@@ -18,8 +18,7 @@ Ensure the following dependencies are installed:
 
 ### Clone Repository
 ```bash
-git clone <your-repository-url>
-cd <your-repository>
+git clone <(https://github.com/Erde321/startuprasp/)>
 ```
 
 ### Configure ngrok
@@ -88,6 +87,18 @@ Run the fan control script manually:
 ```bash
 sudo ./fancontrol/fancontrol.sh
 ```
+
+## WhatsApp Messaging
+The `sendtext.py` script sends WhatsApp messages via CallMeBot.
+
+### Configuration:
+Before using the script, update `sendtext.py` with your phone number and API token:
+
+### Usage:
+```bash
+python sendtext.py 'Your Message Here'
+```
+Ensure you have configured your CallMeBot credentials correctly.
 
 ## License
 This project is open-source. Feel free to modify and improve!
