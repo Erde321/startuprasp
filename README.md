@@ -29,6 +29,7 @@ ngrok authtoken <your-ngrok-token>
 
 ### Set Up CallMeBot
 Follow the setup instructions from the [CallMeBot repository](https://github.com/stonatm/CallMeBot-Whatsapp-Signal) to configure message sending.
+The file 'callmebot.py' from CallMeBot-Whatsapp-Signal needs to be in the directory 'callmebot'!
 
 ## Usage
 ### Start ngrok & Fan Control
