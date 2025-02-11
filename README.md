@@ -18,7 +18,7 @@ Ensure the following dependencies are installed:
 
 ### Clone Repository
 ```bash
-git clone <(https://github.com/Erde321/startuprasp/)>
+git clone https://github.com/Erde321/startuprasp
 ```
 
 ### Configure ngrok
