@@ -1,5 +1,0 @@
-crontab -e
-
-@reboot cd /Pfad/zum/Verzeichnis/der/Makefile && make start
-
-#um makefile beim booten zu starten
