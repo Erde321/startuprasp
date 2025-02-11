@@ -1,0 +1,3 @@
+[submodule "callmebot/CallMeBot-Whatsapp-Signal"]
+	path = callmebot/CallMeBot-Whatsapp-Signal
+	url = https://github.com/stonatm/CallMeBot-Whatsapp-Signal
