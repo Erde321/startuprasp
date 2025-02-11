@@ -15,7 +15,6 @@ Ensure the following dependencies are installed:
 - `ngrok`
 - `jq`
 - `psutil` (Python package)
-- `CallMeBot-Whatsapp-Signal` ([GitHub Repository](https://github.com/stonatm/CallMeBot-Whatsapp-Signal))
 
 ### Clone Repository
 ```bash
