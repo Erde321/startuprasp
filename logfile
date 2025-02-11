@@ -1,0 +1,9 @@
+make[1]: Entering directory '/home/erde/startraspberry'
+Stopping background ngrok process
+No ngrok process found
+make[1]: Leaving directory '/home/erde/startraspberry'
+make[1]: Entering directory '/home/erde/startraspberry'
+make[1]: Leaving directory '/home/erde/startraspberry'
+Ngrok successfully started.
+🔍 Retrieving ngrok remote URL
+✅ Ngrok remote URL: tcp://5.tcp.eu.ngrok.io:16284
