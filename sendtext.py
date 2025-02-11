@@ -3,7 +3,7 @@ import os
 
 # Ermittelt den absoluten Pfad zur CallMeBot-Bibliothek basierend auf der Skript-Position
 base_dir = os.path.dirname(os.path.abspath(__file__))
-callmebot_path = os.path.join(base_dir, "callmebot/CallMeBot-Whatsapp-Signal")
+callmebot_path = os.path.join(base_dir, "callmebot")
 sys.path.append(callmebot_path)
 
 from callmebot import whatsapp
