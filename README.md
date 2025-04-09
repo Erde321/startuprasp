@@ -58,7 +58,7 @@ crontab -e
 ```
 Add this line:
 ```bash
-@reboot cd /path/to/repository && make start
+@reboot cd /path/to/repository && make start &
 ```
 
 ## Power Management
