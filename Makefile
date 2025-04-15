@@ -7,7 +7,7 @@ start:
 
         @/usr/local/bin/ngrok tcp 22 > /dev/null &
 
-        @sleep 5
+        @sleep 20
 
         @for ((i=1; i<=8; i++)); do \
                 if curl -s http://localhost:4040/api/tunnels >/dev/null; then \
@@ -28,7 +28,7 @@ start:
                         else \
                                 echo "Attempt $$i failed to start Ngrok."; \
         		     fi; \
-                        sleep 2; \
+                        sleep 4; \
                 fi; \
         done
 
